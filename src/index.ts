@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Client from './client';
-// import guildMemberAddHandler from './event-handlers/guild-member-add';
+import guildMemberAddHandler from './event-handlers/guild-member-add';
 import messageHandler from './event-handlers/message';
 import readyHandler from './event-handlers/ready';
 
